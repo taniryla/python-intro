@@ -1,13 +1,9 @@
-money = 100
-swimming = False
-job = True
-if (swimming == True):
-    money = money + 100
+animal = 'Bird'
+if animal == 'Lion':
+    print('Meat')
+elif animal == 'Zebra':
+    print('Grass')
+elif animal == 'Monkey':
+    print('Fruit')
 else:
-    money = money - 35
- 
-print(money)
- 
-if job:
-    if (money >= 2500):
-        print('Walrus purchased. Life goal achieved.') 
+    print('Water')
